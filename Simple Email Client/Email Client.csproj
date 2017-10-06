@@ -93,11 +93,11 @@
   <ItemGroup>
     <Compile Include="CustomConstructs.cs" />
     <Compile Include="ImapMailWrapper.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Client.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Client.Designer.cs">
+      <DependentUpon>Client.cs</DependentUpon>
     </Compile>
     <Compile Include="PopMailWrapper.cs" />
     <Compile Include="Program.cs" />
@@ -106,8 +106,8 @@
     <Compile Include="Servers.cs" />
     <Compile Include="SmtpMailWrapper.cs" />
     <Compile Include="UserAccounts.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Client.resx">
+      <DependentUpon>Client.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
